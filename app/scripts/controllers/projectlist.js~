@@ -1,0 +1,17 @@
+'use strict';
+
+/**
+ * @ngdoc function
+ * @name keddooAngularApp.controller:ProjectlistctrlCtrl
+ * @description
+ * # ProjectlistctrlCtrl
+ * Controller of the keddooAngularApp
+ */
+angular.module('keddooAngularApp')
+  .controller('ProjectlistctrlCtrl', function ($scope) {
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });
